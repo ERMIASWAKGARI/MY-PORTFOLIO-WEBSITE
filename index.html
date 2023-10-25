@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>My Personal Website</title>
+  </head>
+  <body>
+    
+    <div class="image_container">
+      <img class="my_mage" src="./my_pic.jpg" alt="My picture" />
+    </div>
+
+    <div class="btn_container">
+      <button class="show-modal1">My Projects</button>
+      <button class="show-modal2">My Skills</button>
+      <button class="show-modal3">Contact Me</button>
+    </div>
+
+    <div class="modal1 hidden">
+      <button class="close-modal1">&times;</button>
+      <h2 class="display-5 fw-bold text-primary">My Projects</h2>
+      <p>
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mypro">
+        
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>GUESS NUMBER</p>
+                </ul>
+                <a href="https://ermiaswakgari.github.io/Guess-my-number-JavaScript-game/"><button  type="button" class="w-100 btn btn-lg btn-primary">Browse</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>PIG GAME</p>
+                </ul>
+                <a href="https://ermiaswakgari.github.io/pig-game/"><button  type="button" class="w-100 btn btn-lg btn-primary">Browse</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>C++ AND JAVA</p>
+            
+                </ul>
+                <a href="https://github.com/ERMIASWAKGARI"><button  type="button" class="w-100 btn btn-lg btn-primary">Browse</button></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </main>
+      </p>
+    </div>
+
+    <div class="modal2 hidden">
+      <button class="close-modal2">&times;</button>
+      <h2 class="display-5 fw-bold text-primary">My Skills</h2>
+      <p><i class="fas fa-laptop-code"></i> C++</p>
+      <p><i class="fas fa-coffee"></i> Java</p>
+      <p><i class="fab fa-html5"></i> HTML</p>
+      <p><i class="fab fa-css3"></i> CSS</p>
+      <p><i class="fas fa-code"></i> JavaScript</p>
+      <p><i class="fas fa-server"></i> PHP</p>
+      <p><i class="fab fa-bootstrap"></i> Bootstrap</p>
+    </div>
+
+    <div class="modal3 hidden">
+      <button class="close-modal3">&times;</button>
+      <h2 class="display-5 fw-bold text-primary">Get In Touch</h2>
+      <div class="col-lg-6 mx-auto">
+        <p>
+          Are you passionate about web development, coding, and all things
+          tech-related? If so, you've come to the right place! I'm Ermias, and
+          I'm always excited to meet like-minded individuals who share a love
+          for the digital world.<br />
+          "Let's Connect and Create Together!"
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a
+            href="mailto:ermix.mysaviorse5@gmail.com"
+            class="btn btn-primary btn-lg px-4"
+            >CONTACT ME WITH EMAIL</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay1 hidden"></div>
+    <div class="overlay2 hidden"></div>
+    <div class="overlay3 hidden"></div>
+
+    <div class="container-fluid">
+      <footer class="py-3 mt-4 bg-white">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/ermias-wakgari-05a62927a"
+              class="nav-link px-2 text-body-secondary text-decoration-none"
+              style="color: #0d6efd"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/ermias.wakgari.3"
+              class="nav-link px-2 text-body-secondary text-decoration-none"
+              style="color: #0d6efd"
+              >Facebook</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://twitter.com/your-twitter-profile"
+              class="nav-link px-2 text-body-secondary text-decoration-none"
+              style="color: #0d6efd"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">
+          © 2023 Ermias wakgari, Inc
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
